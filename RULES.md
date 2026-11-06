@@ -108,7 +108,7 @@ The following interactions were checked in KAYOU's digital game on **August 18, 
 - Rafting's draw follows the Character's retirement process; it does not replace a Farewell. End-phase discards down to ten do not trigger Spike's ordinary discard reward.
 - Plan cards remain private until an effect permits looking at or revealing them. Moving a Character into a Plan slot clears its Treat silently and handles its adorned Item separately.
 
-These are explanatory examples, not new tournament rulings. Printed card abilities and official Q&A take precedence as described above. The bundled official PDF remains rules v1.3.0; **4.0.1 is the app version**, not a new KAYOU rulebook version.
+These are explanatory examples, not new tournament rulings. Printed card abilities and official Q&A take precedence as described above. The bundled official PDF remains rules v1.3.0; **4.1.1 is the app version**, not a new KAYOU rulebook version.
 
 ## Hearth’s Warming Eve: Presents and Explore
 
