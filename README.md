@@ -17,15 +17,15 @@ Both LAN players must use **4.1.1**. Online Play supports website and compatible
 
 [Release notes](https://github.com/ryogatwo/mlp-card-game-releases/releases/tag/v4.1.1) · [All releases](https://github.com/ryogatwo/mlp-card-game-releases/releases) · [Rules reference](RULES.md)
 
-## R36S handheld — Prototype 0.1.3
+## R36S handheld — Prototype 0.1.5
 
 A separate handheld edition for **R36S RK3326, V12 Panel 0, running dArkOSRE-R36 10032026-r6**, with a 640×480 display. Other firmware and hardware variants are untested. R36S versions and release tags are independent of the Windows and macOS versions.
 
 | Package | Download | Checksum |
 | --- | --- | --- |
-| R36S — ready-to-install ZIP | [Download R36S 0.1.3](https://github.com/ryogatwo/mlp-card-game-releases/releases/download/r36s-v0.1.3/MLP-Card-Game-R36S-Prototype-0.1.3.zip) | [SHA-256](https://github.com/ryogatwo/mlp-card-game-releases/releases/download/r36s-v0.1.3/MLP-Card-Game-R36S-Prototype-0.1.3.zip.sha256.txt) |
+| R36S — ready-to-install ZIP | [Download R36S 0.1.5](https://github.com/ryogatwo/mlp-card-game-releases/releases/download/r36s-v0.1.5/MLP-Card-Game-R36S-Prototype-0.1.5.zip) | [SHA-256](https://github.com/ryogatwo/mlp-card-game-releases/releases/download/r36s-v0.1.5/MLP-Card-Game-R36S-Prototype-0.1.5.zip.sha256.txt) |
 
-[Dedicated R36S release and notes](https://github.com/ryogatwo/mlp-card-game-releases/releases/tag/r36s-v0.1.3). Download the R36S ZIP above; GitHub's automatic “Source code” archives are not install packages.
+[Dedicated R36S release and notes](https://github.com/ryogatwo/mlp-card-game-releases/releases/tag/r36s-v0.1.5). Download the R36S ZIP above; GitHub's automatic “Source code” archives are not install packages.
 
 ### Install on the R36S
 
@@ -50,18 +50,20 @@ The ZIP includes the game runtime, artwork and illustrated rules. No internet co
 
 Before replacing files, back up **ports/mlp-r36s/userdata/** to your computer. Extract the new version into the same **ports** folder and overwrite the application files while preserving **userdata**. If your computer replaces whole folders instead of merging them, restore that backed-up **userdata** folder afterward.
 
-This folder contains your match (`match.json`), custom decks and drafts (`decks.json`), and controller calibration (`controls.json`). Version 0.1.3 reads saves from earlier R36S prototypes. Safely eject the SD card after updating.
+This folder contains your match (`match.json`), custom decks and drafts (`decks.json`), and controller calibration (`controls.json`). Version 0.1.5 reads saves from earlier R36S prototypes. Safely eject the SD card after updating.
 
 ### Handheld features and controls
 
 - Human vs computer and watchable AI vs AI, with 704 cards and 26 built-in decks.
 - Saved matches and a controller-operated **Deck creator** for custom decks and drafts.
 - **How to play / illustrated rules**, with topic navigation and eight zoomable diagrams. Hope Starchild's credits and the CC BY-SA 4.0 license are included.
+- **Both tables** shows both players’ Story, Plans, Adventure, Scenes and Retirement. Main Character portraits sit on their current Story stage with a purple highlight.
+- Player labels include Main Character names: **You / Computer** for human play or **P1 / P2** for AI vs AI.
 - Local offline play; the R36S prototype does not include LAN or website cross-play.
 
-Use the **D-pad** to navigate, **A** to select, **B** to go back, **X** to inspect, and **Start** for the menu. During a match, **L/R** switches views and **Y** pauses/resumes AI. Deck creator and the illustrated guide show their own controls on screen.
+Use the **D-pad** to navigate, **A** to select, **B** to go back, **X** to inspect, and **Start** for the menu. Choose **Start → View both tables**, or cycle **Actions → Hand → Field → Log → Table** with **L/R**. During a match, **L/R** switches views and **Y** pauses/resumes AI. Deck creator and the illustrated guide show their own controls on screen.
 
-This remains a prototype. All 21 automated tests passed, and the package was installed and readback-verified on the target SD card. Calibration and gameplay were confirmed on 0.1.1; the newer editor and guide have host integration tests and await physical-use confirmation.
+This remains a prototype. Version 0.1.5 was installed and all 740 files were readback-verified on the target SD card, preserving saved decks, match and calibration. Host tests cover both tables, all Main Character stages, hidden-card inspection and save preservation. Calibration and gameplay were confirmed on 0.1.1; physical confirmation of the new stage-position display is still pending.
 
 ## About the game
 
